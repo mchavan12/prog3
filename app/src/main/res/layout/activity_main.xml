@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:text="Name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:text="ID"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="256dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="329dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/add"/>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="402dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/update"/>
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="480dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/delete"/>
+</RelativeLayout>
